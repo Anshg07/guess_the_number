@@ -11,7 +11,7 @@ m=input("ENTER YOUR MODE : ")
 def auto(key):
     while(key=="y" or key=="Y"):
         x=r.randint(10)
-        print("OKAY!! ",a," HERE WE GO/----\nI HAVE CHOOSE A NUMBER \'BETWEEN 1-10\' \n NOW YOU HAVE 5 CHANCES TO GUESS THE NUMBER!!!\n ALL THE BEST BUDDY!!!")
+        print("OKAY!! ",a," HERE WE GO/----\nI HAVE CHOOSE A NUMBER \'BETWEEN 0-10\' \n NOW YOU HAVE 5 CHANCES TO GUESS THE NUMBER!!!\n ALL THE BEST BUDDY!!!")
         for i in range(5):
             g=int(input("PLEASE GUESS THE NUMBER BELOW.....\n"))
             if x==g:
