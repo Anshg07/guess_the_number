@@ -31,7 +31,7 @@ def manual(key):
         x=list(map(int,input().split()))
         if len(x)>5:
             y=r.choice(x)
-            print(y)
+            #print(y)
             print("OKAY!! ",a," HERE WE GO/----\nI HAVE CHOOSE A NUMBER FROM YOUR PROVIDED LIST! \n NOW YOU HAVE 5 CHANCES TO GUESS THE NUMBER!!!\n ALL THE BEST BUDDY!!!")
             for i in range(5):
                 g=int(input("PLEASE GUESS THE NUMBER BELOW.....\n"))
